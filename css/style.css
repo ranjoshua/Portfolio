@@ -1,0 +1,144 @@
+body{
+	background-color: #E2E9DF;
+	background-image: url('../images/pic.jpeg');
+	direction: ltr; /*text will go from left to right*/
+}
+
+
+.nav-main{
+	position: fixed;
+	top: 0;
+	width: 100%; /*nav go all the way from left to right*/
+	height: 60px; /*nav height is 60 pixels*/
+	background-color: #FFF;
+	display: flex; /*allow to display the nav item in a row and not colums*/
+	flex-direction: row;
+	flex-wrap: wrap;
+	z-index: 1000;
+}
+
+/*btn2.png*/
+.btn {	
+	width: 60px;
+	height: 100%;	
+	background-color: #FFF;
+	/*background-color: #008080;*/
+	background-image: url('../images/btn2.png');
+	background-repeat: no-repeat;
+	background-size: 90%;
+	background-position: center;
+	cursor: pointer;
+	z-index: 1000;
+}
+
+.btn:hover{
+	opacity: 0.5;
+}
+
+.nav-main ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-left: 15px;
+}
+
+.nav-main ul li{
+	list-style: none;
+	line-height: 60px;
+}
+
+.nav-main ul li a{
+	display: block; /* Takes up the full width available, with a new line before and after  */
+	height: 100%;
+	padding: 0 10px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #111;
+	font-family: arial;
+	font-size: 18px;
+}
+
+.nav-main ul li a:hover{
+	background-color: #008080;
+	opacity: 0.7;
+}
+
+.nav-sidebar{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 50px;
+	height: calc(100vh - 60px);
+	padding: 0 5px;
+	background-color: #1b1b1b;
+	z-index: 1000;
+	transition: all 0.3s ease-in-out;
+}
+
+.nav-sidebar ul{
+	padding-top: 15px;
+	overflow: hidden; /* makes sure that if there's a text that go out the container he will hidden */
+	visibility: hidden; /* hide the text, i'll use js to change visibility when the menu bar button is clicked */ 
+}
+
+.nav-sidebar ul li{
+	line-height: 60px;
+	list-style: none;
+}
+
+.nav-sidebar ul li a{
+	display: block;
+	height: 60px;
+	padding: 0 10px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #FFF;
+	font-family: arial;
+	font-size: 16px;
+	white-space: nowrap; /* makes sure the text doesn't jump to the next line even if there's no space for it in the container */
+	opacity: 0;
+	transition: all 0.3s ease-in-out;
+}
+
+.nav-sidebar ul li a:hover{
+	background-color: #222;
+}
+
+
+.title{
+	width: 800px;	
+	margin-top: 200px;
+	border-width: 1px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 40px;
+	z-index: 100;
+}
+
+.title h1{
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 150px;
+	color: #FFF;
+}
+
+.title h2{
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 30px;
+	color: #FFF;
+	padding-left: 165px;
+}
+
+footer{
+	font-size: 20px;
+	margin-left: 600px;
+}
+
+
+
+
+
+
+
+
+
+
+
