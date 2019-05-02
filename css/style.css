@@ -1,6 +1,8 @@
 body{
 	background-color: #E2E9DF;
 	background-image: url('../images/pic.jpeg');
+	background-repeat: no-repeat;
+	background-size: 100%;
 	direction: ltr; /*text will go from left to right*/
 }
 
@@ -105,40 +107,53 @@ body{
 
 
 .title{
-	width: 800px;	
-	margin-top: 200px;
-	border-width: 1px;
+	background-image: url('../images/slide.jpg');
+	background-size: 100%;
+	width: 100%-50px;	
+	height: calc(100vh - 140px);
+	margin-top: 60px;
 	margin-right: auto;
-	margin-left: auto;
+	margin-left: 50px;
 	padding: 40px;
-	z-index: 100;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	color: #FFF;
+	z-index: 500;
 }
 
 .title h1{
-	font-family: 'Shadows Into Light', cursive;
-	font-size: 150px;
-	color: #FFF;
+	font-size: 110px;
+	padding-top: 120px;
 }
 
 .title h2{
-	font-family: 'Shadows Into Light', cursive;
 	font-size: 30px;
+}
+
+.btn-cv{
+	padding-top: 150px;
+}
+
+.btn-cv:hover{
+	opacity: 0.4;
+}
+
+.cv{
+	background: transparent;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #FFF;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-left: 60px;
+	padding-right: 60px;
+	text-decoration: none;
+	font-size: 20px;
 	color: #FFF;
-	padding-left: 165px;
 }
 
 footer{
 	font-size: 20px;
 	margin-left: 600px;
 }
-
-
-
-
-
-
-
-
-
-
 
