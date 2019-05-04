@@ -188,7 +188,8 @@ body{
 
 footer{
 	background-color: #008080;
-	color: #FFF;
+	/*color: #FFF;*/
+	color: #B22222;
 	font-size: 20px;
 	text-align: center;
 }
@@ -244,7 +245,7 @@ footer{
 
 	footer{
 		font-size: 15px;
-		font-color: #B22222;
+		color: #B22222;
 	}
 }
 
