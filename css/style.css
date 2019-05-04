@@ -201,6 +201,10 @@ footer{
 
 @media (max-width: 768px){
 	
+	body{
+		background-position: 50px 100vh;
+	}
+	
 	.title h1{
 		font-size: 45px;
 		padding-top: 120px;
@@ -238,6 +242,7 @@ footer{
 		font-size: 25px;
 	}
 	
+
 	footer{
 		font-size: 15px;
 	}
