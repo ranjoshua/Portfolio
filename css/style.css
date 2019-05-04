@@ -1,8 +1,9 @@
 body{
 	background-color: #E2E9DF;
-	/*background-image: url('../images/pic.jpeg');
-	background-repeat: no-repeat; 
-	background-size: 100%; */
+	background-image: url('../images/pic.jpeg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: 50px 119vh;
 	direction: ltr; /*text will go from left to right*/
 }
 
@@ -108,9 +109,10 @@ body{
 
 .title{
 	background-image: url('../images/slide.jpg');
-	background-size: 100%;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
 	width: 100%-50px;	
-	height: calc(100vh - 140px);
+	height: 100vh;
 	margin-top: 60px;
 	margin-right: auto;
 	margin-left: 50px;
@@ -153,11 +155,14 @@ body{
 }
 
 #about-me{
+	/*height: 100%;*/
 	padding-top: 100px;
 	padding-left: 300px;
+	/*
 	background-image: url('../images/pic.jpeg');
 	background-repeat: no-repeat; 
 	background-size: 100%;	
+	*/
 	text-decoration: none;
 	color: #000000;
 }
@@ -183,5 +188,58 @@ footer{
 	color: #FFF;
 	font-size: 20px;
 	text-align: center;
+}
+
+
+
+
+/* What we gonna do here? we gonna specify exactly how wide our screen needs to be in order for to start changing the design.
+	Meaning, if we take our browser and start minimize the window sideways, how far we want it to go before saying, ok now we are on tablet
+	or now we are on cellphone and now we need to change the style of our website.
+ */
+
+
+@media (max-width: 768px){
+	
+	.title h1{
+		font-size: 45px;
+		padding-top: 120px;
+	}
+	
+	.title h2{
+		font-size: 13px;
+	}
+	
+	.btn-cv{
+		padding-top: 100px;
+	}
+
+	.cv{
+		padding-top: 12.5px;
+		padding-bottom: 12.5px;
+		padding-left: 30px;
+		padding-right: 30px;
+		font-size: 12px;
+	}
+	
+	#about-me{
+		padding-top: 50px;
+		padding-left: 150px;
+	}
+
+	#about-me h2{
+		font-size: 30px;
+	}
+
+	#about-me p{
+		padding-top: 35px;
+		padding-right: 100px;
+		padding-bottom: 50px;
+		font-size: 25px;
+	}
+	
+	footer{
+		font-size: 15px;
+	}
 }
 
