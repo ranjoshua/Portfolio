@@ -22,6 +22,7 @@ body{
 
 /*btn2.png*/
 .btn {	
+	position: fixed;
 	width: 60px;
 	height: 100%;	
 	background-color: #FFF;
