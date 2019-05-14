@@ -266,7 +266,7 @@ footer{
 */
 
 
-@media (max-width: 768px){
+@media only screen and (max-width: 768px){
 	
 	.nav-main{
 		height: 120px !important ;
