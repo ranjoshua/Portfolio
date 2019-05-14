@@ -281,6 +281,18 @@ footer{
 		height: 120px !important ;
 	}
 	
+	.nav-sidebar{
+		position: fixed;
+		left: 0;
+		bottom: 0;
+		width: 100px;
+		height: calc(100vh - 60px);
+		padding: 0 5px;
+		background-color: #1b1b1b;
+		z-index: 1000;
+		transition: all 0.3s ease-in-out;
+	}
+	
 	.title h1{
 		font-size: 45px;
 		padding-top: 120px;
