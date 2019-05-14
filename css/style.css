@@ -269,20 +269,20 @@ footer{
 @media only screen and (max-width: 768px){
 	
 	.nav-main{
-		height: 120px !important ;
+		height: 60px;
 	}
 	
 	.title h1{
-		font-size: 60px;
+		font-size: 55px;
 		padding-top: 160px;
 	}
 	
 	.title h2{
-		font-size: 30px;
+		font-size: 25px;
 	}
 	
 	.btn-cv{
-		padding-top: 150px;
+		padding-top: 120px;
 	}
 
 	.cv{
