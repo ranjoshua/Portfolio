@@ -1,6 +1,8 @@
 /* check whether the sidebar is open or close in order to know if we should open it or close it*/
 
 let toggelNavStatus = false;
+let windowInnerHeight =  window.innerHeight;
+let mainbarHeight = document.getElementsByClassName("nav-main")[0].clientHeight;
 
 let toggleNav = function(){
 	let getSideBar = document.querySelector(".nav-sidebar");
@@ -25,3 +27,9 @@ let toggleNav = function(){
 		toggelNavStatus = false;
 	}
 }
+
+
+let backgroundImageSize = function(){
+	var size = windowInnerHeight - mainbarHeight- 81 + "px";
+	document.getElementsByClassName("title")[0].setAttribute("style","height:" + size);
+}();
