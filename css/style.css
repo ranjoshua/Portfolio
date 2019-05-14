@@ -1,6 +1,6 @@
 body{
-	background-color: #E2E9DF;
-	background-image: url('../images/pic.jpeg');
+	/*background-color:  #ffffe6;*/
+	background-color: white;
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	background-position: 50px 119vh;
@@ -110,9 +110,6 @@ body{
 .title{
 	background-image: url('../images/slide.jpg');
 	background-repeat: no-repeat;
-	background-size: 100% 100%;
-	width: 100%-50px;	
-	height: 100vh;
 	margin-top: 60px;
 	margin-right: auto;
 	margin-left: 50px;
@@ -121,14 +118,19 @@ body{
 	font-family: 'Open Sans', sans-serif;
 	color: #FFF;
 	z-index: 500;
+	background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
 }
 
 .title h1{
+	letter-spacing: 0.2em;
 	font-size: 110px;
 	padding-top: 120px;
 }
 
 .title h2{
+	letter-spacing: 0.2em;
 	font-size: 30px;
 }
 
@@ -154,52 +156,130 @@ body{
 	color: #FFF;
 }
 
+
+.transition{
+	height: 50vh;
+    background-image: url(../images/thinkingman.jpg);
+    /* background-size: 100% 100%; */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 500;
+    /* margin-top: 61px; */
+    margin-right: auto;
+    margin-left: 50px;
+    padding: 40px;
+    background-size: cover;
+}
+
+	.transition p{
+		text-align:center;
+		margin-top: 100px;
+		font-size: 47px;
+		font-family: cursive;
+		color: cornsilk;
+	}
+
+#skills{
+	background-color: white;
+	padding-top: 100px; 
+    padding-left: 300px; 
+    text-decoration: none;
+    color: #000000;
+}
+
+
+	#skills h2{
+		font-family: 'Cormorant Unicase', serif;
+		font-size: 45px;
+		text-decoration: underline;
+	}
+	
+
+.back {
+    margin-top: 52px;
+    height: 150px;
+    background-image: url(../images/logos/backend/java.jpg), url(../images/logos/backend/c.png), url(../images/logos/backend/cpp.png);
+    background-size: 28%, 10%, 20%;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: 1% 62%, 37% 47%, 67% 43%;
+}
+
+
+.front {
+    height: 150px;
+    background-image: url(../images/logos/front/js.jpeg), url(../images/logos/front/html.png), url(../images/logos/front/css.png);
+    background-size: 13%, 20%, 14%;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: 7% 131%, 37% 47%, 66% 71%;
+}
+
+.db {
+    height: 150px;
+    background-image: url(../images/logos/db/sql.png), url(../images/logos/db/neo4j.png), url(../images/logos/db/mongodb.jpeg);
+    background-size: 12%, 21%, 18%;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: 9% 91%, 37% 61%, 68% 42%;
+    margin-bottom: 50px;
+}
+
+.back, .front, .db {
+    padding: 14px;
+}
+
 #about-me{
-	/*height: 100%;*/
-	padding-top: 100px;
-	padding-left: 300px;
-	/*
-	background-image: url('../images/pic.jpeg');
-	background-repeat: no-repeat; 
-	background-size: 100%;	
-	*/
-	text-decoration: none;
-	color: #000000;
+    /* height: 100%; */
+    background-size: 100% 100%;
+    padding-top: 100px; 
+    padding-left: 300px; 
+    text-decoration: none;
+	background-repeat: no-repeat;
+    color: #000000;
 }
 
-#about-me h2{
-	font-family: 'Cormorant Unicase', serif;
-	font-size: 45px;
-	text-decoration: underline;
-}
+	#about-me h2{
+		font-family: 'Cormorant Unicase', serif;
+		font-size: 45px;
+		text-decoration: underline;
+	}
 
-#about-me p{
-	font-family: 'Just Another Hand', cursive;
-	padding-top: 35px;
-	padding-right: 190px;
-	padding-bottom: 50px;
-	font-size: 40px;
-	/*color: #257446;*/
-}
-
-
+	#about-me p{
+		font-family: 'Just Another Hand', cursive;
+		padding-top: 35px;
+		padding-right: 190px;
+		padding-bottom: 50px;
+		font-size: 40px;
+		/*color: #257446;*/
+	}
+	
+	
 footer{
-	background-color: #008080;
+	background-color: black;
 	color: #FFF;
 	font-size: 20px;
 	text-align: center;
+	position: sticky;
+    bottom: 0;
 }
 
 
-
-
-/* What we gonna do here? we gonna specify exactly how wide our screen needs to be in order for to start changing the design.
+	
+	
+/*
+	What we gonna do here? we gonna specify exactly how wide our screen needs to be in order for to start changing the design.
 	Meaning, if we take our browser and start minimize the window sideways, how far we want it to go before saying, ok now we are on tablet
 	or now we are on cellphone and now we need to change the style of our website.
- */
+*/
 
 
 @media (max-width: 768px){
+	
+	.nav-main{
+		height: 120px !important ;
+	}
 	
 	.title h1{
 		font-size: 45px;
