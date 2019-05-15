@@ -340,5 +340,8 @@ footer{
 			    background-size: 18%, 30%, 35%;
 			    background-position: 9% 79%, 45% 73%, 96% 73%;
 		   }
+	footer{
+		font-size: 13px;
+	}
 }
 
