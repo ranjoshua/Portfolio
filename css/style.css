@@ -1,9 +1,5 @@
 body{
 	background-color: yellow;
-	margin: 0;
-	padding: 0;
-	width: 100vw;
-	min-width: 100vw;
 }
 
 .nav-main{
@@ -176,7 +172,6 @@ body{
 
 
 #skills{
-	background-color: white;
 	padding-top: 100px; 
     padding-left: 300px; 
     text-decoration: none;
