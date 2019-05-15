@@ -325,11 +325,13 @@ footer{
 		  }
 	
 		   .front {
+			   background-image: url(../images/logos/front/js.jpeg), url(../images/logos/front/html.png), url(../images/logos/front/css.png);
 			    background-size: 25%, 32%, 25%;
 			    background-position: 0% 83%, 49% 59%, 92% 71%;
 		   }
 	
 		   .db {
+			    background-image: url(../images/logos/db/sql.png), url(../images/logos/db/neo4j.png), url(../images/logos/db/mongodb.jpeg);
 			    background-size: 18%, 30%, 35%;
 			    background-position: 9% 79%, 45% 73%, 96% 73%;
 		   }
