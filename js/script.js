@@ -30,6 +30,7 @@ let toggleNav = function(){
 
 
 let backgroundImageSize = function(){
+	document.body.style.width = window.innerWidth + "px";
 	var size = windowInnerHeight - mainbarHeight- 81 + "px";
 	document.getElementsByClassName("title")[0].setAttribute("style","height:" + size);
 }();
