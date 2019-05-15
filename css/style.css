@@ -264,8 +264,12 @@ footer{
 	or now we are on cellphone and now we need to change the style of our website.
 */
 
-/*
+
 @media only screen and (max-width: 768px){
+	
+	.nav-sidebar{
+		top: 60px;
+	}
 	
 	.nav-main{
 		height: 60px;
@@ -312,6 +316,6 @@ footer{
 	footer{
 		font-size: 10px;
 	}
-*/
+
 }
 
