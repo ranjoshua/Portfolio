@@ -132,9 +132,9 @@ body{
 		padding-top: 150px;
 	}
 
-	.btn-cv:hover{
-		opacity: 0.4;
-	}
+		.btn-cv:hover{
+			opacity: 0.4;
+		}
 
 	.cv{
 		background: transparent;
@@ -275,13 +275,8 @@ footer{
 	
 	.nav-sidebar{
 		height: 100%;
-		top: 60px;
 	}
-	
-	.nav-main{
-		height: 60px;
-	}
-	
+
 	.title h1{
 		font-size: 55px;
 		padding-top: 160px;
@@ -308,16 +303,25 @@ footer{
 		padding-left: 150px;
 	}
 
-	#about-me h2{
-		font-size: 30px;
-	}
+		#about-me h2{
+			font-size: 30px;
+		}
 
-	#about-me p{
-		padding-top: 35px;
-		padding-right: 100px;
-		padding-bottom: 50px;
-		font-size: 25px;
+		#about-me p{
+			padding-top: 35px;
+			padding-right: 100px;
+			padding-bottom: 50px;
+			font-size: 25px;
+		}
+	
+ 	#skills {
+    	 	padding-left: 113px;
 	}
 	
+		.back {
+		    background-image: url(../images/logos/backend/c.png), url(../images/logos/backend/java.jpg), url(../images/logos/backend/cpp.png);
+		    background-size: 20%, 48%, 36%;
+		    background-position: 0% 53%, 47% 50%, 100% 44%;
+		  }
 }
 
