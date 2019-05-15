@@ -1,5 +1,6 @@
 body{
 	background-color: white;
+	min-width: 100%;
 }
 
 .nav-main{
@@ -111,8 +112,8 @@ body{
 	color: #FFF;
 	z-index: 500;
 	background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
+    	background-position: center;
+    	background-size: cover;
 }
 
 	.title h1{
