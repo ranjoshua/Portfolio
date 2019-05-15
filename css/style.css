@@ -103,7 +103,7 @@ body{
 	background-image: url('../images/slide.jpg');
 	background-repeat: no-repeat;
 	margin-top: 60px;
-	margin-right: auto;
+	/*margin-right: auto;*/
 	margin-left: 50px;
 	padding: 40px;
 	text-align: center;
