@@ -323,6 +323,13 @@ footer{
     	 	padding-left: 113px;
 	}
 	
+		#skills h2 {
+		    font-size: 36px;
+		}
+	
+	#about-me h2 {
+		    font-size: 36px;
+	}
 		.back {
 			    background-image: url(../images/logos/backend/c.png), url(../images/logos/backend/java.jpg), url(../images/logos/backend/cpp.png);
 			    background-size: 20%, 48%, 36%;
