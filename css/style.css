@@ -268,7 +268,7 @@ footer{
 @media only screen and (max-width: 768px){
 	
 	.title{
-		background-size: 100%;
+		/*background-size: 100%;*/
 	}
 	
 	.nav-sidebar{
