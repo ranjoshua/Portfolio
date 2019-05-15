@@ -319,9 +319,19 @@ footer{
 	}
 	
 		.back {
-		    background-image: url(../images/logos/backend/c.png), url(../images/logos/backend/java.jpg), url(../images/logos/backend/cpp.png);
-		    background-size: 20%, 48%, 36%;
-		    background-position: 0% 53%, 47% 50%, 100% 44%;
+			    background-image: url(../images/logos/backend/c.png), url(../images/logos/backend/java.jpg), url(../images/logos/backend/cpp.png);
+			    background-size: 20%, 48%, 36%;
+			    background-position: 3% 53%, 47% 50%, 100% 44%;
 		  }
+	
+		   .front {
+			    background-size: 25%, 32%, 25%;
+			    background-position: 0% 83%, 49% 59%, 92% 71%;
+		   }
+	
+		   .db {
+			    background-size: 18%, 30%, 35%;
+			    background-position: 9% 79%, 45% 73%, 96% 73%;
+		   }
 }
 
