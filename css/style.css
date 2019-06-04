@@ -238,13 +238,19 @@ body{
 		text-decoration: underline;
 	}
 
+	#about-me img{
+		margin-top: 20px;
+		width: 35%; 
+		height: 35%;
+		border: 2.5px solid #000000;
+	}
+
 	#about-me p{
 		font-family: 'Just Another Hand', cursive;
 		padding-top: 35px;
 		padding-right: 190px;
 		padding-bottom: 50px;
-		font-size: 40px;
-		/*color: #257446;*/
+		font-size: 30px;
 	}
 	
 	
