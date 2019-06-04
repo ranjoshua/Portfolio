@@ -1,6 +1,5 @@
 body{
 	background-color: white;
-	overflow-x: hidden;
 }
 
 .nav-main{
@@ -62,7 +61,6 @@ body{
 	position: fixed;
 	left: 0;
 	bottom: 0;
-	top: 60px;
 	width: 50px;
 	height: calc(100vh - 60px);
 	padding: 0 5px;
@@ -105,7 +103,7 @@ body{
 	background-image: url('../images/slide.jpg');
 	background-repeat: no-repeat;
 	margin-top: 60px;
-	/*margin-right: auto;*/
+	margin-right: auto;
 	margin-left: 50px;
 	padding: 40px;
 	text-align: center;
@@ -113,8 +111,8 @@ body{
 	color: #FFF;
 	z-index: 500;
 	background-attachment: fixed;
-    	background-position: center;
-    	background-size: cover;
+    background-position: center;
+    background-size: cover;
 }
 
 	.title h1{
@@ -132,9 +130,9 @@ body{
 		padding-top: 150px;
 	}
 
-		.btn-cv:hover{
-			opacity: 0.4;
-		}
+	.btn-cv:hover{
+		opacity: 0.4;
+	}
 
 	.cv{
 		background: transparent;
@@ -174,6 +172,7 @@ body{
 
 
 #skills{
+	background-color: white;
 	padding-top: 100px; 
     padding-left: 300px; 
     text-decoration: none;
@@ -238,12 +237,19 @@ body{
 		text-decoration: underline;
 	}
 
+	#about-me img{
+		margin-top: 20px;
+		width: 35%; 
+		height: 35%;
+		border: 2.5px solid #000000;
+	}
+	
 	#about-me p{
 		font-family: 'Just Another Hand', cursive;
 		padding-top: 35px;
 		padding-right: 190px;
 		padding-bottom: 50px;
-		font-size: 40px;
+		font-size: 30px;
 		/*color: #257446;*/
 	}
 	
@@ -269,25 +275,21 @@ footer{
 
 @media only screen and (max-width: 768px){
 	
-	.title{
-		/*background-size: 100%;*/
+	.nav-main{
+		height: 120px !important ;
 	}
 	
-	.nav-sidebar{
-		height: 100%;
-	}
-
 	.title h1{
-		font-size: 55px;
-		padding-top: 160px;
+		font-size: 45px;
+		padding-top: 120px;
 	}
 	
 	.title h2{
-		font-size: 25px;
+		font-size: 13px;
 	}
 	
 	.btn-cv{
-		padding-top: 120px;
+		padding-top: 100px;
 	}
 
 	.cv{
@@ -303,52 +305,21 @@ footer{
 		padding-left: 150px;
 	}
 
-		#about-me h2{
-			font-size: 30px;
-		}
+	#about-me h2{
+		font-size: 30px;
+	}
 
-		#about-me p{
-			padding-top: 35px;
-			padding-right: 100px;
-			padding-bottom: 50px;
-			font-size: 25px;
-		}
-	
-	
-	.transition p{
-		font-family: 'Acme', sans-serif;
+	#about-me p{
+		padding-top: 35px;
+		padding-right: 100px;
+		padding-bottom: 50px;
+		font-size: 25px;
 	}
 	
- 	#skills {
-    	 	padding-left: 113px;
-	}
-	
-		#skills h2 {
-		    font-size: 36px;
-		}
-	
-	#about-me h2 {
-		    font-size: 36px;
-	}
-		.back {
-			    background-image: url(../images/logos/backend/c.png), url(../images/logos/backend/java.jpg), url(../images/logos/backend/cpp.png);
-			    background-size: 20%, 48%, 36%;
-			    background-position: 3% 53%, 47% 50%, 100% 44%;
-		  }
-	
-		   .front {
-			   background-image: url(../images/logos/front/js.jpeg), url(../images/logos/front/html.png), url(../images/logos/front/css.png);
-			    background-size: 25%, 32%, 25%;
-			    background-position: 0% 83%, 49% 59%, 92% 71%;
-		   }
-	
-		   .db {
-			    background-image: url(../images/logos/db/sql.png), url(../images/logos/db/neo4j.png), url(../images/logos/db/mongodb.jpeg);
-			    background-size: 18%, 30%, 35%;
-			    background-position: 9% 79%, 45% 73%, 96% 73%;
-		   }
+
 	footer{
-		font-size: 13px;
+		color: yellow;
+		font-size: 15px;
 	}
 }
 
