@@ -313,6 +313,11 @@ footer{
 			font-size: 30px;
 		}
 
+		#about-me img{
+			width: 60%;
+			height: 60%;
+		}
+	
 		#about-me p{
 			padding-top: 35px;
 			padding-right: 100px;
