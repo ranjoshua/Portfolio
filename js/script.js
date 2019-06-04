@@ -34,3 +34,4 @@ let backgroundImageSize = function(){
 	var size = windowInnerHeight - mainbarHeight- 81 + "px";
 	document.getElementsByClassName("title")[0].setAttribute("style","height:" + size);
 }();
+
